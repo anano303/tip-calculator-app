@@ -175,7 +175,7 @@ color: #7F9D9F;
     color: red;
 }
 
-.visible {
+#error.visible {
     display: block;
 }
 
