@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    background: #F2F2F2;
+}
+header  {
+    display: flex;
+    justify-content: center;
+}
+main {
+    padding: 32px 0px 32px 32px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    border-radius: 25px;
+    
+    
+    
+    
+}
+
+.bill-input-wrapper {
+    position: relative;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+
+.bill input {
+    width: 100%;
+    height: 48px;
+    padding-left: 50px;
+    text-align: end;
+    
+}
+svg.input-icon {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+.amount  {
+    display: flex; 
+    padding: 40px;
+
+    
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.numbers .result {
+    border: none;
+    background-color: #00474B;
+    color: #26C2AE;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: right;
+    letter-spacing: -1px;
+    width: 143px;
+    margin-left: 92px;
+}
+.people-num input {
+    height: 48px;
+    width: 100%;
+    padding-left: 50px;
+    text-align: end;
+    
+}
+.Select-Tip {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 14px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    
+}
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
+
+}
+.right {
+    width: 413px;
+    height: 100%;
+    background: #00474B;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+
+    ;
+}
+.Select-Tip > button {
+    background: #00474B;
+border-radius: 5px;
+height: 48px;
+width: 117px;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+.Select-Tip > .custom {
+    background: #F3F9FA;
+    color: #547878;
+    border-radius: 5px;
+    height: 48px;
+    width: 117px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border: none;
+}
+
+
+
+.people-num > input {
+    margin-bottom: 48px;
+}
+
+footer > button {
+    background: #26C2AE;
+    border-radius: 5px;
+    margin: 40px;
+    height: 48px;
+    width: 333px;
+    border-radius: 5px;
+    margin-top: 121px;
+    border: none;
+    color: #00474B;
+
+}
+p {
+    color: #7F9D9F;
+    font-size: 13px;
+    line-height: 19px;
+
+color: #7F9D9F;
+}
+.tittle {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.people-num-input {
+    position: relative;
+    
+}
+
+.label-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#error  {
+    display: none;
+    color: red;
+}
+
+.visible {
+    display: block;
+}
+
+.bill > input:hover {
+    background: #F3F9FA;
+    border: 2px solid #26C2AE;
+    border-radius: 5px;
+}
+.Select-Tip > button:hover {
+    background: #26C2AE;
+    border-radius: 5px;
+    color: #00474B;
+}
+.Select-Tip > .custom:hover {
+    color: #00474B;
+    background: #F3F9FA;
+    border: 2px solid #26C2AE;
+    border-radius: 5px;
+
+}
+.Select-Tip > .clicked:hover {
+    background: #26C2AE;
+    border-radius: 5px;
+    color: #00474B;
+}
+.people-num  input:hover {
+    background: #F3F9FA;
+    border: 2px solid #E17052;
+    border-radius: 5px;
+    
+}
+
+footer > button:hover {
+    background:  #26C2AE;
+    border-radius: 5px;
+}
+
+footer > .clicked:hover {
+    background: #26C2AE;
+    border-radius: 5px;
+}
