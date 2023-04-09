@@ -21,8 +21,8 @@ reset.addEventListener("click", resetFunction);
 resetFunction();
 
 const showResults = () => {
-  totalPerPersonOutput.innerHTML = totalPerPerson;
-  tipPerPersonOutput.innerHTML = tipPerPerson;
+  totalPerPersonOutput.innerHTML = "$" + totalPerPerson;
+  tipPerPersonOutput.innerHTML = "$" + tipPerPerson;
 };
 
 const calculateResults = () => {
@@ -31,11 +31,17 @@ const calculateResults = () => {
   }
   tipPerPerson = +((bill * tipPercent) / 100 / people).toFixed(2);
   totalPerPerson = +(bill / people + tipPerPerson).toFixed(2);
+
   showResults();
 };
 
 function billInputChange() {
   bill = +billInput.value;
+  if (bill >= 100000) {
+    bill = 99999;
+    billInput.value = bill;
+    return false;
+  }
   calculateResults();
 }
 
