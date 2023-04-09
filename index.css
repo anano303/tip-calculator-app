@@ -49,6 +49,7 @@ svg.input-icon {
 }
 .amount {
   display: flex;
+  justify-content: space-between;
 }
 .numbers {
   display: flex;
@@ -65,7 +66,6 @@ svg.input-icon {
   text-align: right;
   letter-spacing: -1px;
   max-width: 143px;
-  margin-left: 92px;
 }
 .people-num input {
   height: 48px;
