@@ -178,12 +178,14 @@ p {
   background: #26c2ae;
   border-radius: 5px;
   color: #00474b;
+  cursor: pointer;
 }
 .Select-Tip > .custom:hover {
   color: #00474b;
   background: #f3f9fa;
   border: 2px solid #26c2ae;
   border-radius: 5px;
+  cursor: pointer;
 }
 .Select-Tip > .clicked:hover {
   background: #26c2ae;
@@ -194,16 +196,23 @@ p {
   background: #f3f9fa;
   border: 2px solid #e17052;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-footer > button:hover {
-  background: #26c2ae;
+footer button:hover {
+  background: #9fe8df;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 footer > .clicked:hover {
-  background: #26c2ae;
+  background: #9fe8df;
   border-radius: 5px;
+}
+
+.bill input:hover {
+  border: 2px solid #26c2ae;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
